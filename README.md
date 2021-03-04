@@ -5,25 +5,25 @@ This is building a container from scratch
 
 ### Build image
 *(If you want to develop yourself)* 
-docker build --tag=hello-duke-cli-210 .
+docker build --tag yisongzou/docker_container_python:project2 .
 
 ### List docker images
 docker image ls
 
 ### Run my newly built container
 
-docker run -it hello-duke-cli-210 python app.py --name "Big John"
+docker run -it project2 python app.py --name "Yisong Zou"
 
 ### Push to Docker Hub
 
 *Note:  You will need to change for your Docker Hub Repo*
-docker push noahgift/duke102:tagname
+ docker push yisongzou/docker_container_python:project2
 
 ## Run it yourself
 
 ```bash
-docker pull noahgift/cloudapp:latest
-docker run -it noahgift/cloudapp bash 
+docker pull yisongzou/docker_container_python:project2
+docker run -it yisongzou/docker_container_python bash 
 
 #then run python app.py --help
 ```
@@ -31,9 +31,9 @@ docker run -it noahgift/cloudapp bash
 ## Pass in a command
 
 ```bash
-docker run -it noahgift/cloudapp python app.py --name "Big John"
+docker run -it yisongzou/docker_container_python python app.py --name "Big John"
 #the output
-Hello Big John!
+Hello Yisong Zou!
 ```
 
 ### More things Do
