@@ -1,5 +1,5 @@
 # Docker-container-python
-This is building a container from scratch
+This is building a container and run the flask app
 
 ## Build the Container Yourself and Push to Docker Hub
 
@@ -35,11 +35,6 @@ docker run -it yisongzou/docker_container_python python app.py --name "Yisong Zo
 #the output
 Hello Yisong Zou!
 ```
-
-### More things Do
-
-* Lint the code with Github Actions (see the Makefile)
-* Automatically build the container after lint, and push to DockerHub or some other Container Registery
 
 
 
