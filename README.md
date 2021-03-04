@@ -31,7 +31,7 @@ docker run -it yisongzou/docker_container_python bash
 ## Pass in a command
 
 ```bash
-docker run -it yisongzou/docker_container_python python app.py --name "Big John"
+docker run -it yisongzou/docker_container_python python app.py --name "Yisong Zou"
 #the output
 Hello Yisong Zou!
 ```
